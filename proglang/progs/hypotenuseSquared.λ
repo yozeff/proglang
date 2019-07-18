@@ -1,0 +1,8 @@
+//square function
+^ := λ x . x x *;
+
+//sides of triangle
+a := 5; b := 2;
+
+//hypotenuse squared of triangle
+a ^ b ^ +;

@@ -1,0 +1,9 @@
+//Joseph Harrison 2019
+
+//gravitational force experience by two objects
+
+G := 6.67 10 0 11 - ^ *;
+
+F := λ M . λ m . λ r . G M * m * r 2 ^ /;
+
+1500 10 9 ^ * 100 10 7 ^ * 300 F;

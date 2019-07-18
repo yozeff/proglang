@@ -1,0 +1,9 @@
+//Joseph Harrison 2019
+
+//compute k * Σ(i -> n) i using branches
+
+//definition of equality lambda abstraction
+= := λ x . λ y . ? x y - -> 0
+				 ! ? 0 x y - - -> 0 ! 1 : : ;
+
+

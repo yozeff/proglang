@@ -1,0 +1,8 @@
+//program demonstrates anonymous lambda abstractions
+
+//in expressions
+3 2 ( λ x . 3 x * ) +;
+
+//in lambda abstraction assignment
+f := λ x . x ( λ y . 2 y + ) x +;
+2 f;

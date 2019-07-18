@@ -1,0 +1,22 @@
+//Joseph Harrison 2019
+
+//branch syntax: ? x -> y ! z :
+//pseudocode:
+//IF x > 0 THEN
+//	y
+//ELSE
+//	z
+//ENDIF
+//x is the condition, y is the success expr, z is the failure expr
+
+//examples of branch structure in programming language
+
+//equality branch
+
+equal := λ x . λ y . ? x y - -> 0
+					 ! ? 0 x y - - -> 0
+					 ! 1 : : ;
+
+4 5 equal;
+5 4 equal;
+4 4 equal;

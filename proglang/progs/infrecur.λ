@@ -1,0 +1,4 @@
+//function recurs forever
+f := λ x. x f;
+
+2 f;
