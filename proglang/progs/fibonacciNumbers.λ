@@ -1,0 +1,17 @@
+//Joseph Harrison 2019
+//fibonacci numbers
+
+//helper also passes two last fibonacci numbers and the number
+//calculated so far
+fibonacci_helper := λ n . λ i . λ a . λ b . ? i n - -> b
+									 		! n i 1 + b a b + fibonacci_helper : ;
+
+//this is the lambda abstraction used by api users
+fibonacci := λ n . n 2 - 1 1 1 fibonacci_helper;
+
+1 fibonacci;
+2 fibonacci;
+3 fibonacci;
+4 fibonacci;
+5 fibonacci;
+6 fibonacci;
