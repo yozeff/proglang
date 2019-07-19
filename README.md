@@ -41,7 +41,7 @@ When a lambda abstraction is applied to some arguments, the arguments are simply
 
 In addition to being assigned to identifiers, lambda abstactions can also be used without assignment, in an expression. For example:
 
-`3 2 ( λ x . x 3 + ); - //outputs -2`
+`3 2 ( λ x . x 3 + ) -; //outputs -2`
 
 These anonymous lambda abstractions can even be nested inside each other, for example:
 
