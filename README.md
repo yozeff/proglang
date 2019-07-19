@@ -16,7 +16,7 @@ All functions in "programming language" take their arguments with postfix (rever
 
 Atoms are the basic functions for which all programmer defined functions are derived. In the default implementation, there are five atoms:
 
-`a b +; a b -; a b *; //addition, subtraction and multiplication` newline
+`a b +; a b -; a b *; //addition, subtraction and multiplication` <br>
 `a b /; a b %; //quotient of a and b, a modulo b`
 
 New atoms can be implemented by programmers as Python 3 functions. The function's source as well as an integer representing the function's arity should be placed within the atom dictionary as a tuple.
