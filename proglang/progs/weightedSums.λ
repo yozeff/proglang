@@ -1,9 +1,16 @@
 //Joseph Harrison 2019
 
-//compute k * Σ(i -> n) i using branches
+//compute k * Σ(i = 0 -> n) i using branches
 
 //definition of equality lambda abstraction
 = := λ x . λ y . ? x y - -> 0
 				 ! ? 0 x y - - -> 0 ! 1 : : ;
 
+//helper lambda abstraction for weighted sum
+helper := λ n . λ k . λ i . λ t . ? i n - -> t k *
+								  ! n k i 1 + t i + helper : ;
 
+//weighted sum lambda abstraction
+weighted_sum := λ n . λ k . n k 0 0 helper;
+
+5 3 weighted_sum;

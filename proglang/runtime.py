@@ -32,7 +32,7 @@ if __name__ == '__main__':
 			line = line.replace('\n', '')
 			line = line.replace('\t', '')
 			prog += line
-
+			
 	handle.close()
 
 	start = timeit.default_timer()

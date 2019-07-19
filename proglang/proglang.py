@@ -124,7 +124,7 @@ def eval_branch_expr(tokens, i):
 	i = next_pairing_token(tokens, i, '?', ':')
 	failure = tokens[j:i]
 	#branch logic
-	if eval_expr(condition) > 0:
+	if float(eval_expr(condition)) > 0:
 		return eval_expr(success), i
 	else:
 		return eval_expr(failure), i
